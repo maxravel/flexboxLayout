@@ -116,11 +116,14 @@ article h2{
     margin:10px 0;
 }
 
+/* disapearing of decision stack/grid when screen is small */
 @media screen and (max-width:760px){
     #decision{
         display:none;
     }
+}
 
+@media screen and (min-width:760px){
     #blocks{
         display:flex;
         flex-wrap:wrap;
