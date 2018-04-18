@@ -24,6 +24,10 @@ h1{
     padding:10px;
 }
 
+
+
+/*******************NAV SECTION***************/
+
 nav{
     background-color: #333;
     border-bottom:3px solid black;
@@ -46,15 +50,15 @@ nav a:hover{
     background-color:#666;
 }
 
-a.tw{
-    background:url(../img/tw.jpg) no-repeat center;
-    /* background-color: aqua; */
+a.fb{
+    background:url(/img/fa.jpg) no-repeat center;
+    /* background-color:blue; */
     background-size:90%;
 }
 
-a.fb{
-    background:url(../img/fa.jpg) no-repeat center;
-    /* background-color:blue; */
+a.tw{
+    background:url(/img/tw2.jpg) no-repeat center;
+    /* background-color: aqua; */
     background-size:90%;
 }
 
@@ -76,47 +80,24 @@ nav ul.social li{
     flex: 1 1 0;
 }
 
-@media screen and (max-width:760px){
-    #decision{
-        display:none;
-    }
-}
-
 @media screen and (min-width:760px){
     nav ul{
-        display:flex;
-    }
-
-    nav li{
-        flex:1 1 0;
+        display:flex; 
     }
 
     nav{
         display:flex;
         justify-content:space-between;
-    }
-
+    } 
+   
     .social{
         margin:0;
     }
-
-    #blocks{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:space-between;
-    }
-
-    article{
-        flex: 0 1 32%;
-    }
-    
-    .stack{
-        flex: 0 1 100%;
-        transition: flex-basis 0.2s linear;
-    }
 }
 
-/* grid */
+
+
+/************** GRID *******************/
 
 #blocks{
     margin:20px;
@@ -135,9 +116,30 @@ article h2{
     margin:10px 0;
 }
 
+@media screen and (max-width:760px){
+    #decision{
+        display:none;
+    }
 
-/* main section */
+    #blocks{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
 
+    article{
+        flex: 0 1 32%;
+    }
+    
+    .stack{
+        flex: 0 1 100%;
+        transition: flex-basis 0.2s linear;
+    }
+}
+
+
+
+/******************* MAIN SECTION ****************/
 
 .flex-container{
     display:flex;
