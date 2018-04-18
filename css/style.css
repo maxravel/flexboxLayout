@@ -51,13 +51,13 @@ nav a:hover{
 }
 
 a.fb{
-    background:url(/img/fa.jpg) no-repeat center;
+    background:url(../img/fa.jpg) no-repeat center;
     /* background-color:blue; */
     background-size:90%;
 }
 
 a.tw{
-    background:url(/img/tw2.jpg) no-repeat center;
+    background:url(../img/tw2.jpg) no-repeat center;
     /* background-color: aqua; */
     background-size:90%;
 }
